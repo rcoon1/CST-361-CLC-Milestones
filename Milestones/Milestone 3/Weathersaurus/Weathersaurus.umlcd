@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="__kBEYOQ_Eey-JstIGKoJUQ">
+  <modelElement href="Weathersaurus.uml#__jeR0OQ_Eey-JstIGKoJUQ"/>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="__yI_8OQ_Eey-JstIGKoJUQ" name="User">
+    <modelElement href="Weathersaurus.uml#__wGYkuQ_Eey-JstIGKoJUQ"/>
+    <visualProperties xmi:id="__yI_8eQ_Eey-JstIGKoJUQ" position="432.0,-331.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="__yI_8uQ_Eey-JstIGKoJUQ" name="LegacyStyledElement">
+      <modelElement href="Weathersaurus.uml#__wG_oOQ_Eey-JstIGKoJUQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="__yI_8-Q_Eey-JstIGKoJUQ" name="Annotations">
+      <modelElement href="Weathersaurus.uml#__wNtVeQ_Eey-JstIGKoJUQ"/>
+    </stereotypes>
+    <visibility xmi:id="__yI_9OQ_Eey-JstIGKoJUQ" label="+"/>
+    <attributes xmi:id="__yI_9eQ_Eey-JstIGKoJUQ" name="firstName">
+      <modelElement href="Weathersaurus.uml#__wezEeQ_Eey-JstIGKoJUQ"/>
+      <visibility xmi:id="__yI_9uQ_Eey-JstIGKoJUQ" label="~"/>
+      <cardinality xmi:id="__yI_9-Q_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+      <type xmi:id="__yI_-OQ_Eey-JstIGKoJUQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__yI_-eQ_Eey-JstIGKoJUQ" name="lastName">
+      <modelElement href="Weathersaurus.uml#__wfaIOQ_Eey-JstIGKoJUQ"/>
+      <visibility xmi:id="__yI_-uQ_Eey-JstIGKoJUQ" label="~"/>
+      <cardinality xmi:id="__yI_--Q_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+      <type xmi:id="__yI__OQ_Eey-JstIGKoJUQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__yI__eQ_Eey-JstIGKoJUQ" name="email">
+      <modelElement href="Weathersaurus.uml#__wfaIeQ_Eey-JstIGKoJUQ"/>
+      <visibility xmi:id="__yI__uQ_Eey-JstIGKoJUQ" label="~"/>
+      <cardinality xmi:id="__yI__-Q_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+      <type xmi:id="__yJAAOQ_Eey-JstIGKoJUQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__yJAAeQ_Eey-JstIGKoJUQ" name="gender">
+      <modelElement href="Weathersaurus.uml#__wfaIuQ_Eey-JstIGKoJUQ"/>
+      <visibility xmi:id="__yJAAuQ_Eey-JstIGKoJUQ" label="~"/>
+      <cardinality xmi:id="__yJAA-Q_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+      <type xmi:id="__yJABOQ_Eey-JstIGKoJUQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__yJABeQ_Eey-JstIGKoJUQ" name="age">
+      <modelElement href="Weathersaurus.uml#__wgBMOQ_Eey-JstIGKoJUQ"/>
+      <visibility xmi:id="__yJABuQ_Eey-JstIGKoJUQ" label="~"/>
+      <cardinality xmi:id="__yJAB-Q_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+      <type xmi:id="__yJACOQ_Eey-JstIGKoJUQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__yJACeQ_Eey-JstIGKoJUQ" name="state">
+      <modelElement href="Weathersaurus.uml#__wgBMeQ_Eey-JstIGKoJUQ"/>
+      <visibility xmi:id="__yJACuQ_Eey-JstIGKoJUQ" label="~"/>
+      <cardinality xmi:id="__yJAC-Q_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+      <type xmi:id="__yJADOQ_Eey-JstIGKoJUQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__yJADeQ_Eey-JstIGKoJUQ" name="username">
+      <modelElement href="Weathersaurus.uml#__wgBMuQ_Eey-JstIGKoJUQ"/>
+      <visibility xmi:id="__yJADuQ_Eey-JstIGKoJUQ" label="~"/>
+      <cardinality xmi:id="__yJAD-Q_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+      <type xmi:id="__yJAEOQ_Eey-JstIGKoJUQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__yJAEeQ_Eey-JstIGKoJUQ" name="password">
+      <modelElement href="Weathersaurus.uml#__wgBM-Q_Eey-JstIGKoJUQ"/>
+      <visibility xmi:id="__yJAEuQ_Eey-JstIGKoJUQ" label="~"/>
+      <cardinality xmi:id="__yJAE-Q_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+      <type xmi:id="__yJAFOQ_Eey-JstIGKoJUQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="__yJAFeQ_Eey-JstIGKoJUQ" name="User">
+      <modelElement href="Weathersaurus.uml#__wINwOQ_Eey-JstIGKoJUQ"/>
+      <keywords xmi:id="__yJAFuQ_Eey-JstIGKoJUQ" keyword="create"/>
+      <stereotypes xmi:id="__yJAF-Q_Eey-JstIGKoJUQ" name="StyledElement">
+        <modelElement href="Weathersaurus.uml#__wINxOQ_Eey-JstIGKoJUQ"/>
+      </stereotypes>
+      <visibility xmi:id="__yJAGOQ_Eey-JstIGKoJUQ" label="+"/>
+      <cardinality xmi:id="__yJAGeQ_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__yJAGuQ_Eey-JstIGKoJUQ">
+        <modelElement href="Weathersaurus.uml#__wINw-Q_Eey-JstIGKoJUQ"/>
+        <type xmi:id="__yJAG-Q_Eey-JstIGKoJUQ" name="User">
+          <modelElement href="Weathersaurus.uml#__wGYkuQ_Eey-JstIGKoJUQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="__yJAHOQ_Eey-JstIGKoJUQ" name="User">
+      <modelElement href="Weathersaurus.uml#__wI00OQ_Eey-JstIGKoJUQ"/>
+      <keywords xmi:id="__yJAHeQ_Eey-JstIGKoJUQ" keyword="create"/>
+      <stereotypes xmi:id="__yJAHuQ_Eey-JstIGKoJUQ" name="StyledElement">
+        <modelElement href="Weathersaurus.uml#__wJb4-Q_Eey-JstIGKoJUQ"/>
+      </stereotypes>
+      <visibility xmi:id="__yJAH-Q_Eey-JstIGKoJUQ" label="+"/>
+      <cardinality xmi:id="__yJAIOQ_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__yJAIeQ_Eey-JstIGKoJUQ">
+        <modelElement href="Weathersaurus.uml#__wJb4uQ_Eey-JstIGKoJUQ"/>
+        <type xmi:id="__yJAIuQ_Eey-JstIGKoJUQ" name="User">
+          <modelElement href="Weathersaurus.uml#__wGYkuQ_Eey-JstIGKoJUQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="__yJAI-Q_Eey-JstIGKoJUQ" name="firstName">
+        <modelElement href="Weathersaurus.uml#__wI00eQ_Eey-JstIGKoJUQ"/>
+        <cardinality xmi:id="__yJAJOQ_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+        <type xmi:id="__yJAJeQ_Eey-JstIGKoJUQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="__yJAJuQ_Eey-JstIGKoJUQ" name="lastName">
+        <modelElement href="Weathersaurus.uml#__wI00uQ_Eey-JstIGKoJUQ"/>
+        <cardinality xmi:id="__yJAJ-Q_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+        <type xmi:id="__yJAKOQ_Eey-JstIGKoJUQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="__yJAKeQ_Eey-JstIGKoJUQ" name="email">
+        <modelElement href="Weathersaurus.uml#__wI00-Q_Eey-JstIGKoJUQ"/>
+        <cardinality xmi:id="__yJAKuQ_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+        <type xmi:id="__yJAK-Q_Eey-JstIGKoJUQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="__yJALOQ_Eey-JstIGKoJUQ" name="gender">
+        <modelElement href="Weathersaurus.uml#__wI01OQ_Eey-JstIGKoJUQ"/>
+        <cardinality xmi:id="__yJALeQ_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+        <type xmi:id="__yJALuQ_Eey-JstIGKoJUQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="__yJAL-Q_Eey-JstIGKoJUQ" name="age">
+        <modelElement href="Weathersaurus.uml#__wI01eQ_Eey-JstIGKoJUQ"/>
+        <cardinality xmi:id="__yJAMOQ_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+        <type xmi:id="__yJAMeQ_Eey-JstIGKoJUQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="__yJAMuQ_Eey-JstIGKoJUQ" name="state">
+        <modelElement href="Weathersaurus.uml#__wI01uQ_Eey-JstIGKoJUQ"/>
+        <cardinality xmi:id="__yJAM-Q_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+        <type xmi:id="__yJANOQ_Eey-JstIGKoJUQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="__yJANeQ_Eey-JstIGKoJUQ" name="username">
+        <modelElement href="Weathersaurus.uml#__wI01-Q_Eey-JstIGKoJUQ"/>
+        <cardinality xmi:id="__yJANuQ_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+        <type xmi:id="__yJAN-Q_Eey-JstIGKoJUQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="__yJAOOQ_Eey-JstIGKoJUQ" name="password">
+        <modelElement href="Weathersaurus.uml#__wI02OQ_Eey-JstIGKoJUQ"/>
+        <cardinality xmi:id="__yJAOeQ_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+        <type xmi:id="__yJAOuQ_Eey-JstIGKoJUQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__yJAO-Q_Eey-JstIGKoJUQ" name="getFirstName">
+      <modelElement href="Weathersaurus.uml#__wJb5OQ_Eey-JstIGKoJUQ"/>
+      <stereotypes xmi:id="__yJAPOQ_Eey-JstIGKoJUQ" name="StyledElement">
+        <modelElement href="Weathersaurus.uml#__wKC8OQ_Eey-JstIGKoJUQ"/>
+      </stereotypes>
+      <visibility xmi:id="__yJAPeQ_Eey-JstIGKoJUQ" label="+"/>
+      <cardinality xmi:id="__yJAPuQ_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__yJAP-Q_Eey-JstIGKoJUQ">
+        <modelElement href="Weathersaurus.uml#__wJb5eQ_Eey-JstIGKoJUQ"/>
+        <type xmi:id="__yJAQOQ_Eey-JstIGKoJUQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="__yJAQeQ_Eey-JstIGKoJUQ" name="setFirstName">
+      <modelElement href="Weathersaurus.uml#__wKC8eQ_Eey-JstIGKoJUQ"/>
+      <stereotypes xmi:id="__yJAQuQ_Eey-JstIGKoJUQ" name="StyledElement">
+        <modelElement href="Weathersaurus.uml#__wKC8-Q_Eey-JstIGKoJUQ"/>
+      </stereotypes>
+      <visibility xmi:id="__yJAQ-Q_Eey-JstIGKoJUQ" label="+"/>
+      <cardinality xmi:id="__yJAROQ_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="__yJAReQ_Eey-JstIGKoJUQ" name="firstName">
+        <modelElement href="Weathersaurus.uml#__wKC8uQ_Eey-JstIGKoJUQ"/>
+        <cardinality xmi:id="__yJARuQ_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+        <type xmi:id="__yJAR-Q_Eey-JstIGKoJUQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__yJASOQ_Eey-JstIGKoJUQ" name="getLastName">
+      <modelElement href="Weathersaurus.uml#__wKC9OQ_Eey-JstIGKoJUQ"/>
+      <stereotypes xmi:id="__yJASeQ_Eey-JstIGKoJUQ" name="StyledElement">
+        <modelElement href="Weathersaurus.uml#__wKqAOQ_Eey-JstIGKoJUQ"/>
+      </stereotypes>
+      <visibility xmi:id="__yJASuQ_Eey-JstIGKoJUQ" label="+"/>
+      <cardinality xmi:id="__yJAS-Q_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__yJATOQ_Eey-JstIGKoJUQ">
+        <modelElement href="Weathersaurus.uml#__wKC9eQ_Eey-JstIGKoJUQ"/>
+        <type xmi:id="__yJATeQ_Eey-JstIGKoJUQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="__yJATuQ_Eey-JstIGKoJUQ" name="setLastName">
+      <modelElement href="Weathersaurus.uml#__wKqAeQ_Eey-JstIGKoJUQ"/>
+      <stereotypes xmi:id="__yJAT-Q_Eey-JstIGKoJUQ" name="StyledElement">
+        <modelElement href="Weathersaurus.uml#__wKqA-Q_Eey-JstIGKoJUQ"/>
+      </stereotypes>
+      <visibility xmi:id="__yJAUOQ_Eey-JstIGKoJUQ" label="+"/>
+      <cardinality xmi:id="__yJAUeQ_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="__yJAUuQ_Eey-JstIGKoJUQ" name="lastName">
+        <modelElement href="Weathersaurus.uml#__wKqAuQ_Eey-JstIGKoJUQ"/>
+        <cardinality xmi:id="__yJAU-Q_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+        <type xmi:id="__yJAVOQ_Eey-JstIGKoJUQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__yJAVeQ_Eey-JstIGKoJUQ" name="getEmail">
+      <modelElement href="Weathersaurus.uml#__wKqBOQ_Eey-JstIGKoJUQ"/>
+      <stereotypes xmi:id="__yJAVuQ_Eey-JstIGKoJUQ" name="StyledElement">
+        <modelElement href="Weathersaurus.uml#__wKqBuQ_Eey-JstIGKoJUQ"/>
+      </stereotypes>
+      <visibility xmi:id="__yJAV-Q_Eey-JstIGKoJUQ" label="+"/>
+      <cardinality xmi:id="__yJAWOQ_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__yJAWeQ_Eey-JstIGKoJUQ">
+        <modelElement href="Weathersaurus.uml#__wKqBeQ_Eey-JstIGKoJUQ"/>
+        <type xmi:id="__yJAWuQ_Eey-JstIGKoJUQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="__yJAW-Q_Eey-JstIGKoJUQ" name="setEmail">
+      <modelElement href="Weathersaurus.uml#__wLREOQ_Eey-JstIGKoJUQ"/>
+      <stereotypes xmi:id="__yJAXOQ_Eey-JstIGKoJUQ" name="StyledElement">
+        <modelElement href="Weathersaurus.uml#__wLREuQ_Eey-JstIGKoJUQ"/>
+      </stereotypes>
+      <visibility xmi:id="__yJAXeQ_Eey-JstIGKoJUQ" label="+"/>
+      <cardinality xmi:id="__yJAXuQ_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="__yJAX-Q_Eey-JstIGKoJUQ" name="email">
+        <modelElement href="Weathersaurus.uml#__wLREeQ_Eey-JstIGKoJUQ"/>
+        <cardinality xmi:id="__yJAYOQ_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+        <type xmi:id="__yJAYeQ_Eey-JstIGKoJUQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__yJAYuQ_Eey-JstIGKoJUQ" name="getGender">
+      <modelElement href="Weathersaurus.uml#__wLRE-Q_Eey-JstIGKoJUQ"/>
+      <stereotypes xmi:id="__yJAY-Q_Eey-JstIGKoJUQ" name="StyledElement">
+        <modelElement href="Weathersaurus.uml#__wLRFeQ_Eey-JstIGKoJUQ"/>
+      </stereotypes>
+      <visibility xmi:id="__yJAZOQ_Eey-JstIGKoJUQ" label="+"/>
+      <cardinality xmi:id="__yJAZeQ_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__yJAZuQ_Eey-JstIGKoJUQ">
+        <modelElement href="Weathersaurus.uml#__wLRFOQ_Eey-JstIGKoJUQ"/>
+        <type xmi:id="__yJAZ-Q_Eey-JstIGKoJUQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="__yJAaOQ_Eey-JstIGKoJUQ" name="setGender">
+      <modelElement href="Weathersaurus.uml#__wL4IOQ_Eey-JstIGKoJUQ"/>
+      <stereotypes xmi:id="__yJAaeQ_Eey-JstIGKoJUQ" name="StyledElement">
+        <modelElement href="Weathersaurus.uml#__wL4IuQ_Eey-JstIGKoJUQ"/>
+      </stereotypes>
+      <visibility xmi:id="__yJAauQ_Eey-JstIGKoJUQ" label="+"/>
+      <cardinality xmi:id="__yJAa-Q_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="__yJAbOQ_Eey-JstIGKoJUQ" name="gender">
+        <modelElement href="Weathersaurus.uml#__wL4IeQ_Eey-JstIGKoJUQ"/>
+        <cardinality xmi:id="__yJAbeQ_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+        <type xmi:id="__yJAbuQ_Eey-JstIGKoJUQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__yJAb-Q_Eey-JstIGKoJUQ" name="getAge">
+      <modelElement href="Weathersaurus.uml#__wL4I-Q_Eey-JstIGKoJUQ"/>
+      <stereotypes xmi:id="__yJAcOQ_Eey-JstIGKoJUQ" name="StyledElement">
+        <modelElement href="Weathersaurus.uml#__wL4JeQ_Eey-JstIGKoJUQ"/>
+      </stereotypes>
+      <visibility xmi:id="__yJAceQ_Eey-JstIGKoJUQ" label="+"/>
+      <cardinality xmi:id="__yJAcuQ_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__yJAc-Q_Eey-JstIGKoJUQ">
+        <modelElement href="Weathersaurus.uml#__wL4JOQ_Eey-JstIGKoJUQ"/>
+        <type xmi:id="__yJAdOQ_Eey-JstIGKoJUQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="__yJAdeQ_Eey-JstIGKoJUQ" name="setAge">
+      <modelElement href="Weathersaurus.uml#__wL4JuQ_Eey-JstIGKoJUQ"/>
+      <stereotypes xmi:id="__yJAduQ_Eey-JstIGKoJUQ" name="StyledElement">
+        <modelElement href="Weathersaurus.uml#__wMfMOQ_Eey-JstIGKoJUQ"/>
+      </stereotypes>
+      <visibility xmi:id="__yJAd-Q_Eey-JstIGKoJUQ" label="+"/>
+      <cardinality xmi:id="__yJAeOQ_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="__yJAeeQ_Eey-JstIGKoJUQ" name="age">
+        <modelElement href="Weathersaurus.uml#__wL4J-Q_Eey-JstIGKoJUQ"/>
+        <cardinality xmi:id="__yJAeuQ_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+        <type xmi:id="__yJAe-Q_Eey-JstIGKoJUQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__yJAfOQ_Eey-JstIGKoJUQ" name="getState">
+      <modelElement href="Weathersaurus.uml#__wMfMeQ_Eey-JstIGKoJUQ"/>
+      <stereotypes xmi:id="__yJAfeQ_Eey-JstIGKoJUQ" name="StyledElement">
+        <modelElement href="Weathersaurus.uml#__wMfM-Q_Eey-JstIGKoJUQ"/>
+      </stereotypes>
+      <visibility xmi:id="__yJAfuQ_Eey-JstIGKoJUQ" label="+"/>
+      <cardinality xmi:id="__yJAf-Q_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__yJAgOQ_Eey-JstIGKoJUQ">
+        <modelElement href="Weathersaurus.uml#__wMfMuQ_Eey-JstIGKoJUQ"/>
+        <type xmi:id="__yJAgeQ_Eey-JstIGKoJUQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="__yJAguQ_Eey-JstIGKoJUQ" name="setState">
+      <modelElement href="Weathersaurus.uml#__wMfNOQ_Eey-JstIGKoJUQ"/>
+      <stereotypes xmi:id="__yJAg-Q_Eey-JstIGKoJUQ" name="StyledElement">
+        <modelElement href="Weathersaurus.uml#__wMfNuQ_Eey-JstIGKoJUQ"/>
+      </stereotypes>
+      <visibility xmi:id="__yJAhOQ_Eey-JstIGKoJUQ" label="+"/>
+      <cardinality xmi:id="__yJAheQ_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="__yJAhuQ_Eey-JstIGKoJUQ" name="state">
+        <modelElement href="Weathersaurus.uml#__wMfNeQ_Eey-JstIGKoJUQ"/>
+        <cardinality xmi:id="__yJAh-Q_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+        <type xmi:id="__yJAiOQ_Eey-JstIGKoJUQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__yJAieQ_Eey-JstIGKoJUQ" name="getUsername">
+      <modelElement href="Weathersaurus.uml#__wNGQOQ_Eey-JstIGKoJUQ"/>
+      <stereotypes xmi:id="__yJAiuQ_Eey-JstIGKoJUQ" name="StyledElement">
+        <modelElement href="Weathersaurus.uml#__wNGQuQ_Eey-JstIGKoJUQ"/>
+      </stereotypes>
+      <visibility xmi:id="__yJAi-Q_Eey-JstIGKoJUQ" label="+"/>
+      <cardinality xmi:id="__yJAjOQ_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__yJAjeQ_Eey-JstIGKoJUQ">
+        <modelElement href="Weathersaurus.uml#__wNGQeQ_Eey-JstIGKoJUQ"/>
+        <type xmi:id="__yJAjuQ_Eey-JstIGKoJUQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="__yJAj-Q_Eey-JstIGKoJUQ" name="setUsername">
+      <modelElement href="Weathersaurus.uml#__wNGQ-Q_Eey-JstIGKoJUQ"/>
+      <stereotypes xmi:id="__yJAkOQ_Eey-JstIGKoJUQ" name="StyledElement">
+        <modelElement href="Weathersaurus.uml#__wNGReQ_Eey-JstIGKoJUQ"/>
+      </stereotypes>
+      <visibility xmi:id="__yJAkeQ_Eey-JstIGKoJUQ" label="+"/>
+      <cardinality xmi:id="__yJAkuQ_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="__yJAk-Q_Eey-JstIGKoJUQ" name="username">
+        <modelElement href="Weathersaurus.uml#__wNGROQ_Eey-JstIGKoJUQ"/>
+        <cardinality xmi:id="__yJAlOQ_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+        <type xmi:id="__yJAleQ_Eey-JstIGKoJUQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__yJAluQ_Eey-JstIGKoJUQ" name="getPassword">
+      <modelElement href="Weathersaurus.uml#__wNGRuQ_Eey-JstIGKoJUQ"/>
+      <stereotypes xmi:id="__yJAl-Q_Eey-JstIGKoJUQ" name="StyledElement">
+        <modelElement href="Weathersaurus.uml#__wNtUeQ_Eey-JstIGKoJUQ"/>
+      </stereotypes>
+      <visibility xmi:id="__yJAmOQ_Eey-JstIGKoJUQ" label="+"/>
+      <cardinality xmi:id="__yJAmeQ_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__yJAmuQ_Eey-JstIGKoJUQ">
+        <modelElement href="Weathersaurus.uml#__wNtUOQ_Eey-JstIGKoJUQ"/>
+        <type xmi:id="__yJAm-Q_Eey-JstIGKoJUQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="__yJAnOQ_Eey-JstIGKoJUQ" name="setPassword">
+      <modelElement href="Weathersaurus.uml#__wNtUuQ_Eey-JstIGKoJUQ"/>
+      <stereotypes xmi:id="__yJAneQ_Eey-JstIGKoJUQ" name="StyledElement">
+        <modelElement href="Weathersaurus.uml#__wNtVOQ_Eey-JstIGKoJUQ"/>
+      </stereotypes>
+      <visibility xmi:id="__yJAnuQ_Eey-JstIGKoJUQ" label="+"/>
+      <cardinality xmi:id="__yJAn-Q_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="__yJAoOQ_Eey-JstIGKoJUQ" name="password">
+        <modelElement href="Weathersaurus.uml#__wNtU-Q_Eey-JstIGKoJUQ"/>
+        <cardinality xmi:id="__yJAoeQ_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+        <type xmi:id="__yJAouQ_Eey-JstIGKoJUQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="__yWbUOQ_Eey-JstIGKoJUQ" name="LoginController">
+    <modelElement href="Weathersaurus.uml#__wPigOQ_Eey-JstIGKoJUQ"/>
+    <visualProperties xmi:id="__yWbUeQ_Eey-JstIGKoJUQ" position="-259.0,151.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="__yXCYOQ_Eey-JstIGKoJUQ" name="LegacyStyledElement">
+      <modelElement href="Weathersaurus.uml#__wQJkOQ_Eey-JstIGKoJUQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="__yXCYeQ_Eey-JstIGKoJUQ" name="Annotations">
+      <modelElement href="Weathersaurus.uml#__wQwoOQ_Eey-JstIGKoJUQ"/>
+    </stereotypes>
+    <visibility xmi:id="__yXCYuQ_Eey-JstIGKoJUQ" label="+"/>
+    <operations xmi:id="__yXCY-Q_Eey-JstIGKoJUQ" name="onSubmit">
+      <modelElement href="Weathersaurus.uml#__wdk8OQ_Eey-JstIGKoJUQ"/>
+      <stereotypes xmi:id="__yXCZOQ_Eey-JstIGKoJUQ" name="StyledElement">
+        <modelElement href="Weathersaurus.uml#__wdk8-Q_Eey-JstIGKoJUQ"/>
+      </stereotypes>
+      <visibility xmi:id="__yXCZeQ_Eey-JstIGKoJUQ" label="+"/>
+      <cardinality xmi:id="__yXCZuQ_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__yXCZ-Q_Eey-JstIGKoJUQ">
+        <modelElement href="Weathersaurus.uml#__wdk8uQ_Eey-JstIGKoJUQ"/>
+        <type xmi:id="__yXCaOQ_Eey-JstIGKoJUQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="__yXCaeQ_Eey-JstIGKoJUQ" name="login">
+        <modelElement href="Weathersaurus.uml#__wdk8eQ_Eey-JstIGKoJUQ"/>
+        <cardinality xmi:id="__yXCauQ_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+        <type xmi:id="__yXCa-Q_Eey-JstIGKoJUQ" name="Login">
+          <modelElement href="Weathersaurus.uml#__wDVQOQ_Eey-JstIGKoJUQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="__x_O8OQ_Eey-JstIGKoJUQ" name="Login">
+    <modelElement href="Weathersaurus.uml#__wDVQOQ_Eey-JstIGKoJUQ"/>
+    <visualProperties xmi:id="__x_O8eQ_Eey-JstIGKoJUQ" position="30.0,30.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="__x_O8uQ_Eey-JstIGKoJUQ" name="LegacyStyledElement">
+      <modelElement href="Weathersaurus.uml#__wDVQeQ_Eey-JstIGKoJUQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="__x_O8-Q_Eey-JstIGKoJUQ" name="Annotations">
+      <modelElement href="Weathersaurus.uml#__wFxg-Q_Eey-JstIGKoJUQ"/>
+    </stereotypes>
+    <visibility xmi:id="__x_O9OQ_Eey-JstIGKoJUQ" label="+"/>
+    <attributes xmi:id="__x_O9eQ_Eey-JstIGKoJUQ" name="username">
+      <modelElement href="Weathersaurus.uml#__weMAOQ_Eey-JstIGKoJUQ"/>
+      <visibility xmi:id="__x_O9uQ_Eey-JstIGKoJUQ" label="~"/>
+      <cardinality xmi:id="__x_O9-Q_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+      <type xmi:id="__x_O-OQ_Eey-JstIGKoJUQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__x_O-eQ_Eey-JstIGKoJUQ" name="password">
+      <modelElement href="Weathersaurus.uml#__wezEOQ_Eey-JstIGKoJUQ"/>
+      <visibility xmi:id="__x_O-uQ_Eey-JstIGKoJUQ" label="~"/>
+      <cardinality xmi:id="__x_O--Q_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+      <type xmi:id="__x_O_OQ_Eey-JstIGKoJUQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="__x_O_eQ_Eey-JstIGKoJUQ" name="Login">
+      <modelElement href="Weathersaurus.uml#__wD8UOQ_Eey-JstIGKoJUQ"/>
+      <keywords xmi:id="__x_O_uQ_Eey-JstIGKoJUQ" keyword="create"/>
+      <stereotypes xmi:id="__x_O_-Q_Eey-JstIGKoJUQ" name="StyledElement">
+        <modelElement href="Weathersaurus.uml#__wEjY-Q_Eey-JstIGKoJUQ"/>
+      </stereotypes>
+      <visibility xmi:id="__x_PAOQ_Eey-JstIGKoJUQ" label="+"/>
+      <cardinality xmi:id="__x_PAeQ_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__x_PAuQ_Eey-JstIGKoJUQ">
+        <modelElement href="Weathersaurus.uml#__wEjYuQ_Eey-JstIGKoJUQ"/>
+        <type xmi:id="__x_PA-Q_Eey-JstIGKoJUQ" name="Login">
+          <modelElement href="Weathersaurus.uml#__wDVQOQ_Eey-JstIGKoJUQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="__x_PBOQ_Eey-JstIGKoJUQ" name="username">
+        <modelElement href="Weathersaurus.uml#__wD8UeQ_Eey-JstIGKoJUQ"/>
+        <cardinality xmi:id="__x_PBeQ_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+        <type xmi:id="__x_PBuQ_Eey-JstIGKoJUQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="__x_PB-Q_Eey-JstIGKoJUQ" name="password">
+        <modelElement href="Weathersaurus.uml#__wD8UuQ_Eey-JstIGKoJUQ"/>
+        <cardinality xmi:id="__x_PCOQ_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+        <type xmi:id="__x_PCeQ_Eey-JstIGKoJUQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__x_PCuQ_Eey-JstIGKoJUQ" name="getUsername">
+      <modelElement href="Weathersaurus.uml#__wEjZOQ_Eey-JstIGKoJUQ"/>
+      <stereotypes xmi:id="__x_PC-Q_Eey-JstIGKoJUQ" name="StyledElement">
+        <modelElement href="Weathersaurus.uml#__wEjZuQ_Eey-JstIGKoJUQ"/>
+      </stereotypes>
+      <visibility xmi:id="__x_PDOQ_Eey-JstIGKoJUQ" label="+"/>
+      <cardinality xmi:id="__x_PDeQ_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__x_PDuQ_Eey-JstIGKoJUQ">
+        <modelElement href="Weathersaurus.uml#__wEjZeQ_Eey-JstIGKoJUQ"/>
+        <type xmi:id="__x_PD-Q_Eey-JstIGKoJUQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="__x_PEOQ_Eey-JstIGKoJUQ" name="setUsername">
+      <modelElement href="Weathersaurus.uml#__wFKcOQ_Eey-JstIGKoJUQ"/>
+      <stereotypes xmi:id="__x_PEeQ_Eey-JstIGKoJUQ" name="StyledElement">
+        <modelElement href="Weathersaurus.uml#__wFKcuQ_Eey-JstIGKoJUQ"/>
+      </stereotypes>
+      <visibility xmi:id="__x_PEuQ_Eey-JstIGKoJUQ" label="+"/>
+      <cardinality xmi:id="__x_PE-Q_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="__x_PFOQ_Eey-JstIGKoJUQ" name="username">
+        <modelElement href="Weathersaurus.uml#__wFKceQ_Eey-JstIGKoJUQ"/>
+        <cardinality xmi:id="__x_PFeQ_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+        <type xmi:id="__x_PFuQ_Eey-JstIGKoJUQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__x_PF-Q_Eey-JstIGKoJUQ" name="getPassword">
+      <modelElement href="Weathersaurus.uml#__wFKc-Q_Eey-JstIGKoJUQ"/>
+      <stereotypes xmi:id="__x_PGOQ_Eey-JstIGKoJUQ" name="StyledElement">
+        <modelElement href="Weathersaurus.uml#__wFKdeQ_Eey-JstIGKoJUQ"/>
+      </stereotypes>
+      <visibility xmi:id="__x_PGeQ_Eey-JstIGKoJUQ" label="+"/>
+      <cardinality xmi:id="__x_PGuQ_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__x_PG-Q_Eey-JstIGKoJUQ">
+        <modelElement href="Weathersaurus.uml#__wFKdOQ_Eey-JstIGKoJUQ"/>
+        <type xmi:id="__x_PHOQ_Eey-JstIGKoJUQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="__x_PHeQ_Eey-JstIGKoJUQ" name="setPassword">
+      <modelElement href="Weathersaurus.uml#__wFxgOQ_Eey-JstIGKoJUQ"/>
+      <stereotypes xmi:id="__x_PHuQ_Eey-JstIGKoJUQ" name="StyledElement">
+        <modelElement href="Weathersaurus.uml#__wFxguQ_Eey-JstIGKoJUQ"/>
+      </stereotypes>
+      <visibility xmi:id="__x_PH-Q_Eey-JstIGKoJUQ" label="+"/>
+      <cardinality xmi:id="__x_PIOQ_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="__x_PIeQ_Eey-JstIGKoJUQ" name="password">
+        <modelElement href="Weathersaurus.uml#__wFxgeQ_Eey-JstIGKoJUQ"/>
+        <cardinality xmi:id="__x_PIuQ_Eey-JstIGKoJUQ" label="1" max="1" min="1"/>
+        <type xmi:id="__x_PI-Q_Eey-JstIGKoJUQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
