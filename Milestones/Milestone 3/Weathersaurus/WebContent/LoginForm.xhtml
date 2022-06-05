@@ -18,7 +18,8 @@
 	<h:form class="login-form">
 		<h:inputText id="username" value="#{user.username}" title="username" pt:placeholder="Username" styleClass="input"/><h:message style="color: red;" for="username"/><br/>
 		<h:inputSecret id="password" value="#{user.password}" title="password" pt:placeholder="Password" styleClass="input"/><h:message style="color: red;"  for="password"/><br/>
-		<h:commandButton value="Login" action="#{userController.onLogin(user)}" styleClass="button" />
+		<!-- <h:commandButton value="Login" action="#{userController.onLogin(user)}" styleClass="button" /> -->
+		<h:commandButton value="Login" action="LoginFail.xhtml" styleClass="button" />
 		<p class="message">Don't have an account? <a href="registerForm.xhtml">Sign Up</a></p>
 	</h:form>
  	</div>

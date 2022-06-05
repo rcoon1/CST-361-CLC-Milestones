@@ -23,8 +23,8 @@ public class LoginController implements Serializable{
 
 	public String onSubmit(Login login) {
 		//Forwards to view along with the user bean
-		FacesContext.getCurrentInstance().getExternalContext().getRequestMap().put("login", login);
-		return null;
+		FacesContext.getCurrentInstance().getExternalContext().getRequestMap().put("LoginFail.xhtml", login);
+		return "LoginFail.xhtml";
 
 
 	}
