@@ -1,11 +1,7 @@
 package beans;
 
-import javax.annotation.ManagedBean;
-import javax.faces.view.ViewScoped;
 
 
-@ManagedBean
-@ViewScoped
 public class Login {
 	String username;
 	String password;
