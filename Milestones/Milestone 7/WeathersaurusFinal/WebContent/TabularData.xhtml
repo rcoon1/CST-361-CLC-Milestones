@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"> 
+      
+         <ui:composition template="/layouts/commonLayout.xhtml">
+	<ui:define name="content">
+	
+<h:head>
+	<title>Weathersaurus | Tabular Report</title>
+	
+	<style>
+		.form{
+			max-width:650px;
+		}
+	
+		.weather-table {
+			width: auto;
+		}
+		
+		.order-table-odd {
+			background: #EEE;
+		}
+		
+		.order-table-header {
+			font-weight: 40px;
+			align: center;
+			padding:10px;
+		}
+	</style>
+</h:head> 
+
+<h:body> 
+
+  <div class="login-page">
+  <div class="form">
+  <h2>Tabular Data</h2>
+				<h:dataTable value="#{weatherData.data}" var = "data" style="text-align:center" styleClass="weather-table" headerClass="order-table-header" rowClasses="order-table-odd, order-table-even" >
+					<h:column>
+						<f:facet name = "header">Location</f:facet>
+						#{data.location}
+					</h:column>
+					<h:column>
+						<f:facet name = "header">Description</f:facet>
+						#{data.description}
+					</h:column>
+					<h:column>
+						<f:facet name = "header">Temperature</f:facet>
+						#{data.temperature}
+					</h:column>
+					<h:column>
+						<f:facet name = "header">Humidity</f:facet>
+						#{data.humidity}
+					</h:column>
+					<h:column>
+						<f:facet name = "header">Wind Speed</f:facet>
+						#{data.windSpeed} MPH
+					</h:column>
+					<h:column>
+						<f:facet name = "header">Weekday</f:facet>
+						#{data.day}
+					</h:column>
+				</h:dataTable> 
+ 	</div>
+</div>
+		
+	</h:body> 
+	</ui:define>
+	</ui:composition>
+</html>
