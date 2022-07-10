@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:pt="http://xmlns.jcp.org/jsf/passthrough"
+	xmlns:c="http://java.sun.com/jstl/core">
+
+<ui:composition>
+	<!-- Application Title -->
+
+	<div class="container">
+		<ui:fragment rendered="#{empty user.username}">
+			<h1 class="logo">
+				<img src="resources/logo6.png" alt="Weathersaurus"></img>
+			</h1>
+		</ui:fragment>
+		<nav>
+		<ul class="navigation">
+			<ui:fragment
+				rendered="#{empty user.username}">
+				<li><a href="LoginForm.xhtml">Login</a></li>
+				<li><a href="">Sign Up</a></li>
+			</ui:fragment>
+		</ul>
+		<ul class="navigation">
+
+			<li><h:form
+					rendered="#{not empty user.username}">
+					<h:commandLink value="Logout" action="#{userController.onLogoff()}"></h:commandLink>
+				</h:form></li>
+		</ul>
+		</nav>
+	</div>
+</ui:composition>
+</html>
