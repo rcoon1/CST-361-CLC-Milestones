@@ -9,6 +9,7 @@ import business.UserBusinessService;
 
 @ManagedBean
 @ViewScoped
+
 public class LoginController {
 
 	public String onSubmit(Login login) {

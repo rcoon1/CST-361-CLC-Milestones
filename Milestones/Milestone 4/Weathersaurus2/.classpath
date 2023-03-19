@@ -9,5 +9,14 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="C:/Users/rmcoo/.m2/repository/org/hibernate/hibernate-core/5.4.20.Final/hibernate-core-5.4.20.Final.jar" sourcepath="C:/Users/rmcoo/.m2/repository/org/hibernate/hibernate-core/5.4.20.Final/hibernate-core-5.4.20.Final-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.hibernate"/>
+			<attribute name="maven.artifactId" value="hibernate-core"/>
+			<attribute name="maven.version" value="5.4.20.Final"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
